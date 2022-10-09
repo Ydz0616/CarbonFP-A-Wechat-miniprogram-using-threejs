@@ -1,0 +1,22 @@
+/* pages/cal/index.wxss */
+.userinput{
+  border-color:lightgray;
+  border-style: solid;
+  margin: 20rpx;
+}
+.container{
+  font-size: medium;
+  background-color:lightgreen ;
+  color: black;
+  font-weight:bolder;
+  text-align: center;
+}
+button{
+  margin-top: 30rpx;
+}
+.result{
+  margin-top: 30px;
+  font-weight: bolder;
+  border-style:dotted;
+  border-color:lightgray;
+}

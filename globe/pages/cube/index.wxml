@@ -1,0 +1,10 @@
+
+<view style="height: 90%; width: 100%;" bindtouchstart="documentTouchStart" bindtouchmove="documentTouchMove" bindtouchend="documentTouchEnd" >
+    <canvas type="webgl" id="c" style="width: 100%; height:100%;" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" bindtouchcancel="touchCancel" bindlongtap="longTap" bindtap="tap"></canvas>
+     
+</view>
+ 
+<view id="bottom">
+  <!-- <text>The brighter the area. the greater CO2 emission</text>   -->
+  <image src="./scale2.png"></image>
+</view>

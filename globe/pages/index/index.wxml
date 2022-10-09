@@ -1,0 +1,13 @@
+<view class="list-container">
+    
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="cube">
+        CO2 Emission Heat Map
+    </button>
+
+    <button type="primary" size="default" plain="true" bindtap="tap" data-id="cal">Carbon Footprint Calculator</button>
+    
+    <text>Proudly Presented By Yuandong Zhang</text>
+     
+   
+</view>
+ 

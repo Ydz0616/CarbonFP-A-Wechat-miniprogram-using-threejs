@@ -1,0 +1,12 @@
+text{
+  color: white;
+}
+#bottom{
+  text-align: center;
+  background-color: #152238;
+  height: 10%;
+}
+image{
+  height: 100%;
+  width: 100%;
+}

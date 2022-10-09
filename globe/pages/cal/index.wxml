@@ -1,0 +1,25 @@
+<!--pages/cal/index.wxml-->
+<form class="container" >
+  <view>
+    <view>Electricity Comsumption/month</view>
+    <input class="userinput" type="number" bindinput="EcmHandler" placeholder="KWh"/>
+  </view>
+  <view>
+    <view> Transportation Mileage/month </view>
+    <input class="userinput" type="number" bindinput="TmmHandler" placeholder="km"/>
+   
+  <button type="primary" bindtap="calculate">calculate</button>
+  </view>
+  
+  <view class="result" hidden="{{hideview}}">
+    <text>Total House Footprint = {{result}} metric tons of CO2 emission</text>
+  </view>
+  <view class="result" hidden="{{hideview}}">
+    <text>Household Electricity Footprint = {{Eresult}} metric tons of CO2 emission</text>
+  </view>
+  <view class="result" hidden="{{hideview}}">
+    <text>Transportation Footprint = {{Tresult}} metric tons of CO2 emission</text>
+  </view>
+</form>
+
+ 
